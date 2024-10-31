@@ -1,0 +1,543 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plutu WooCommerce\n"
+"POT-Creation-Date: 2023-08-22 13:15+0200\n"
+"PO-Revision-Date: 2023-08-22 13:15+0200\n"
+"Last-Translator: \n"
+"Language-Team: Plutu Team\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: config/edfali-fields.php:13 config/moamalat-fields.php:13
+#: config/mpgs-fields.php:13 config/sadadapi-fields.php:13
+#: config/tlync-fields.php:13
+msgid "Enable"
+msgstr "تفعيل"
+
+#: config/edfali-fields.php:15 config/moamalat-fields.php:15
+#: config/mpgs-fields.php:15 config/sadadapi-fields.php:15
+#: config/tlync-fields.php:15
+msgid "Enable/Disable"
+msgstr "تفعيل/تعطيل"
+
+#: config/edfali-fields.php:19 config/moamalat-fields.php:19
+#: config/mpgs-fields.php:19 config/sadadapi-fields.php:19
+#: config/tlync-fields.php:19
+msgid "Title"
+msgstr "الاسم"
+
+#: config/edfali-fields.php:21 config/moamalat-fields.php:21
+#: config/mpgs-fields.php:21 config/sadadapi-fields.php:21
+#: config/tlync-fields.php:21
+msgid ""
+"This controls the title for the payment method the customer sees during "
+"checkout."
+msgstr "يتحكم هذا في عنوان طريقة الدفع التي يراها العميل أثناء الدفع."
+
+#: config/edfali-fields.php:22
+#: includes/gateways/class-plutu-woocommerce-adfali-payment-gateway.php:23
+msgid "Adfali"
+msgstr "أدفعلي"
+
+#: config/edfali-fields.php:26 config/moamalat-fields.php:26
+#: config/mpgs-fields.php:26 config/sadadapi-fields.php:26
+#: config/tlync-fields.php:26
+msgid "Description"
+msgstr "الوصف"
+
+#: config/edfali-fields.php:28 config/moamalat-fields.php:28
+#: config/mpgs-fields.php:28 config/sadadapi-fields.php:28
+#: config/tlync-fields.php:29
+msgid ""
+"This controls the description for the payment method the customer sees "
+"during checkout."
+msgstr "يتحكم هذا في وصف طريقة الدفع التي يراها العميل أثناء الدفع."
+
+#: config/edfali-fields.php:32 config/moamalat-fields.php:33
+#: config/sadadapi-fields.php:32 config/tlync-fields.php:33
+msgid "Maximum amount (LYD)"
+msgstr "أقصى قيمة (د.ل)"
+
+#: config/edfali-fields.php:34 config/moamalat-fields.php:35
+#: config/mpgs-fields.php:35 config/sadadapi-fields.php:34
+#: config/tlync-fields.php:35
+msgid "Maximum limit per transaction."
+msgstr "أقصى قيمة لكل عملية."
+
+#: config/edfali-fields.php:39 config/moamalat-fields.php:40
+#: config/sadadapi-fields.php:39 config/tlync-fields.php:40
+msgid "Minimum amount (LYD)"
+msgstr "أقل قيمة (د.ل)"
+
+#: config/edfali-fields.php:41 config/moamalat-fields.php:42
+#: config/mpgs-fields.php:42 config/sadadapi-fields.php:41
+#: config/tlync-fields.php:42
+msgid "Minimum limit per transaction."
+msgstr "أقل قيمة لكل عملية."
+
+#: config/edfali-fields.php:46 config/moamalat-fields.php:47
+#: config/mpgs-fields.php:47 config/sadadapi-fields.php:46
+#: config/tlync-fields.php:47
+msgid "Currency"
+msgstr "العملة"
+
+#: config/edfali-fields.php:47 config/moamalat-fields.php:48
+#: config/sadadapi-fields.php:47 config/tlync-fields.php:48
+msgid ""
+"The supported currency for the payment method. Leave it blank to ignore."
+msgstr "العملة المعتمدة لطريقة الدفع. اتركه فارغا لتجاهل التحقق من العملة."
+
+#: config/edfali-fields.php:55 config/moamalat-fields.php:56
+#: config/mpgs-fields.php:58 config/sadadapi-fields.php:55
+#: config/tlync-fields.php:56
+msgid "Next Order Status"
+msgstr "حالة الطلب بعد الدفع"
+
+#: config/edfali-fields.php:56 config/moamalat-fields.php:57
+#: config/mpgs-fields.php:59 config/sadadapi-fields.php:56
+#: config/tlync-fields.php:57
+msgid "This controls the Order status when payment is completed."
+msgstr "يتحكم هذا في حالة الطلب عند اكتمال الدفع."
+
+#: config/edfali-fields.php:67 config/moamalat-fields.php:68
+#: config/mpgs-fields.php:70 config/sadadapi-fields.php:67
+#: config/tlync-fields.php:68
+msgid "Api Key"
+msgstr "مفتاح API"
+
+#: config/edfali-fields.php:69 config/moamalat-fields.php:70
+#: config/mpgs-fields.php:72 config/sadadapi-fields.php:69
+#: config/tlync-fields.php:70
+msgid "Plutu Api Key."
+msgstr "مفتاح API في منصة Plutu."
+
+#: config/edfali-fields.php:73 config/moamalat-fields.php:80
+#: config/mpgs-fields.php:82 config/sadadapi-fields.php:73
+#: config/tlync-fields.php:80
+msgid "Access Token"
+msgstr "رمز الوصول"
+
+#: config/edfali-fields.php:75 config/moamalat-fields.php:82
+#: config/mpgs-fields.php:84 config/sadadapi-fields.php:75
+#: config/tlync-fields.php:82
+msgid "Plutu Access Token."
+msgstr "رمز الوصول في منصة Plutu."
+
+#: config/moamalat-fields.php:22
+#: includes/traits/trait-plutu-woocommerce-payment-gateway-helper.php:230
+msgid "Local Bank Card"
+msgstr "البطاقة المصرفية المحلية"
+
+#: config/moamalat-fields.php:29
+msgid "Pay by Local Bank Card"
+msgstr "الدفع عن طريق البطاقة المصرفية المحلية"
+
+#: config/moamalat-fields.php:74 config/mpgs-fields.php:76
+#: config/tlync-fields.php:74
+msgid "Api Secret"
+msgstr "الرمز السري"
+
+#: config/moamalat-fields.php:76 config/mpgs-fields.php:78
+#: config/tlync-fields.php:76
+msgid "Plutu Api Secret Key."
+msgstr "الرمز السري في منصة Plutu."
+
+#: config/mpgs-fields.php:22
+#: includes/gateways/class-plutu-woocommerce-mpgs-payment-gateway.php:23
+msgid "Visa/Mastercard"
+msgstr "بطاقات فيزا/ماستركارد"
+
+#: config/mpgs-fields.php:29 resources/mpgs/checkout.form.php:24
+msgid ""
+"Pay by credit and debit card (Visa, Mastercard), after clicking \"continue "
+"payment\" you will be redirected to the payment service to complete your "
+"purchase securely."
+msgstr ""
+"الدفع عن طريق بطاقة الائتمان والخصم (فيزا أو ماستركارد) ، بعد النقر على "
+"“ادفع الآن” ، ستتم إعادة توجيهك إلى خدمة الدفع لإكمال عملية الشراء بأمان."
+
+#: config/mpgs-fields.php:33
+msgid "Maximum amount"
+msgstr "أقصى قيمة"
+
+#: config/mpgs-fields.php:40
+msgid "Minimum amount"
+msgstr "‫أقل قيمة"
+
+#: config/mpgs-fields.php:48
+msgid ""
+"The currency for the payment method should match the currency associated "
+"with your account in both Plutu and MPGS."
+msgstr ""
+"العملة المستخدمة في طريقة الدفع يجب أن تتطابق مع العملة المرتبطة بحسابك في "
+"كل من Plutu و MPGS."
+
+#: config/sadadapi-fields.php:22
+#: includes/gateways/class-plutu-woocommerce-sadad-payment-gateway.php:23
+#: includes/traits/trait-plutu-woocommerce-payment-gateway-helper.php:229
+msgid "Sadad"
+msgstr "سداد"
+
+#: config/tlync-fields.php:22
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:23
+msgid "T-lync"
+msgstr "خدمة T-lync"
+
+#: config/tlync-fields.php:28
+msgid ""
+"Pay via T-lync platform using Tadawul Cards, Sadad, Adfali, Local Bank "
+"Cards, and Mobicash. etc."
+msgstr ""
+"ادفع عبر منصة T-lync باستخدام بطاقات تداول ، سداد ، أدفعلي ، بطاقات المصرفية "
+"المحلية ، موبي كاش. وغيرها."
+
+#: includes/abstracts/class-plutu-woocommerce-ajax-payment-gateway.php:60
+msgid "Token mismatch, please refresh the page"
+msgstr "رمز الصفحة غير مطابق ، يرجى تحديث الصفحة"
+
+#: includes/abstracts/class-plutu-woocommerce-ajax-payment-gateway.php:64
+msgid "Amount must be integer"
+msgstr "يجب أن يكون المبلغ عددًا صحيحًا"
+
+#: includes/abstracts/class-plutu-woocommerce-ajax-payment-gateway.php:86
+msgid "An OTP has been sent to your mobile number"
+msgstr "تم إرسال رمز التأكيد علي هاتفك النقال"
+
+#: includes/abstracts/class-plutu-woocommerce-payment-gateway.php:104
+#, php-format
+msgid "Configure %s"
+msgstr "تهيئة %s"
+
+#: includes/abstracts/class-plutu-woocommerce-payment-gateway.php:172
+#: includes/gateways/class-plutu-woocommerce-local-bank-cards-payment-gateway.php:64
+#: includes/gateways/class-plutu-woocommerce-local-bank-cards-payment-gateway.php:150
+#: includes/gateways/class-plutu-woocommerce-mpgs-payment-gateway.php:64
+#: includes/gateways/class-plutu-woocommerce-mpgs-payment-gateway.php:150
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:85
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:169
+msgid "Order had already received payment"
+msgstr "تم دفع هذا الطلب مسبقا"
+
+#: includes/abstracts/class-plutu-woocommerce-payment-gateway.php:189
+#: includes/gateways/class-plutu-woocommerce-local-bank-cards-payment-gateway.php:160
+#: includes/gateways/class-plutu-woocommerce-mpgs-payment-gateway.php:160
+#, php-format
+msgid "Payment completed via %s!"
+msgstr "اكتمل الدفع بواسطة %s!"
+
+#: includes/ajax/class-plutu-woocommerce-adfali-ajax-payment-gateway.php:49
+msgid "Mobile number is required"
+msgstr "رقم الهاتف النقال مطلوب"
+
+#: includes/ajax/class-plutu-woocommerce-adfali-ajax-payment-gateway.php:54
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:46
+msgid "Invalid mobile number format"
+msgstr "رقم الهاتف غير صحيح"
+
+#: includes/ajax/class-plutu-woocommerce-sadadapi-ajax-payment-gateway.php:50
+msgid "All fields are required"
+msgstr "جميع حقول بيانات الدفع مطلوبة"
+
+#: includes/ajax/class-plutu-woocommerce-sadadapi-ajax-payment-gateway.php:55
+msgid "Invalid phone number format, must start with 091 or 093"
+msgstr "تنسيق رقم الهاتف غير صحيح ، يجب أن يبدأ بـ 091 أو 093"
+
+#: includes/ajax/class-plutu-woocommerce-sadadapi-ajax-payment-gateway.php:59
+msgid "Please enter a valid birth year"
+msgstr "الرجاء إدخال سنة الميلاد بشكل صحيح"
+
+#: includes/gateways/class-plutu-woocommerce-adfali-payment-gateway.php:22
+msgid "Proceed to Adfali"
+msgstr "الدفع بواسطة أدفعلي"
+
+#: includes/gateways/class-plutu-woocommerce-adfali-payment-gateway.php:24
+msgid "Adfali Payment Gateway"
+msgstr "أدفعلي"
+
+#: includes/gateways/class-plutu-woocommerce-adfali-payment-gateway.php:59
+#: includes/gateways/class-plutu-woocommerce-sadad-payment-gateway.php:59
+msgid "Payment is not verified"
+msgstr "لم يتم التحقق من عملية الدفع"
+
+#: includes/gateways/class-plutu-woocommerce-local-bank-cards-payment-gateway.php:22
+#: includes/gateways/class-plutu-woocommerce-mpgs-payment-gateway.php:22
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:22
+msgid "Continue to payment"
+msgstr "ادفع الآن"
+
+#: includes/gateways/class-plutu-woocommerce-local-bank-cards-payment-gateway.php:23
+msgid "Local bank card"
+msgstr "البطاقة المصرفية المحلية"
+
+#: includes/gateways/class-plutu-woocommerce-local-bank-cards-payment-gateway.php:24
+msgid "Local Bank Card Payment Gateway"
+msgstr "بوابة الدفع بالبطاقة المصرفية المحلية"
+
+#: includes/gateways/class-plutu-woocommerce-local-bank-cards-payment-gateway.php:118
+#: includes/gateways/class-plutu-woocommerce-local-bank-cards-payment-gateway.php:123
+#: includes/gateways/class-plutu-woocommerce-local-bank-cards-payment-gateway.php:137
+#: includes/gateways/class-plutu-woocommerce-local-bank-cards-payment-gateway.php:176
+#: includes/gateways/class-plutu-woocommerce-mpgs-payment-gateway.php:118
+#: includes/gateways/class-plutu-woocommerce-mpgs-payment-gateway.php:123
+#: includes/gateways/class-plutu-woocommerce-mpgs-payment-gateway.php:137
+#: includes/gateways/class-plutu-woocommerce-mpgs-payment-gateway.php:176
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:143
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:148
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:161
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:203
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:218
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:223
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:235
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:244
+msgid "Payment unsuccessful, Try again or contact the site administrator"
+msgstr "لم تتم عملية الدفع ، حاول مرة أخرى أو اتصل بمسؤول الموقع"
+
+#: includes/gateways/class-plutu-woocommerce-local-bank-cards-payment-gateway.php:143
+#: includes/gateways/class-plutu-woocommerce-mpgs-payment-gateway.php:143
+msgid "Payment canceled by the customer"
+msgstr "تم إلغاء الدفع من قبل الزبون"
+
+#: includes/gateways/class-plutu-woocommerce-local-bank-cards-payment-gateway.php:156
+#: includes/gateways/class-plutu-woocommerce-mpgs-payment-gateway.php:156
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:180
+#, php-format
+msgid ""
+"Order amount %s is not equal to transaction amount %s, partial payment is "
+"not allowed"
+msgstr "مبلغ الطلب %s لا يساوي مبلغ المعاملة %s ، ولا يُسمح بالدفع الجزئي"
+
+#: includes/gateways/class-plutu-woocommerce-local-bank-cards-payment-gateway.php:175
+#: includes/gateways/class-plutu-woocommerce-mpgs-payment-gateway.php:175
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:202
+msgid ""
+"The request signature calculated does not match your store signature. Check "
+"your secret key"
+msgstr "توقيع الطلب لا يتطابق مع توقيع متجرك. تحقق من الرمز السري لطريقة الدفع"
+
+#: includes/gateways/class-plutu-woocommerce-mpgs-payment-gateway.php:24
+msgid "Mastercard Payment Gateway Services"
+msgstr "بوابة الدفع MPGS"
+
+#: includes/gateways/class-plutu-woocommerce-sadad-payment-gateway.php:22
+msgid "Proceed to Sadad"
+msgstr "الدفع بواسطة سداد"
+
+#: includes/gateways/class-plutu-woocommerce-sadad-payment-gateway.php:24
+msgid "Sadad Payment Gateway"
+msgstr "بوابة سداد للدفع"
+
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:24
+msgid "T-Lync online payment platform"
+msgstr "T-Lync للدفع عبر الإنترنت"
+
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:52
+msgid "Invalid email format"
+msgstr "صيغة البريد الإلكتروني غير صحيحة"
+
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:174
+msgid "Payment failed"
+msgstr "عملية الدفع فشلت"
+
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:188
+#, php-format
+msgid "Payment completed via %s! - %s"
+msgstr "اكتمل الدفع بواسطة %s! - %s"
+
+#: includes/gateways/class-plutu-woocommerce-tlync-payment-gateway.php:254
+msgid "Invalid redirect link"
+msgstr "رابط إعادة التوجيه غير صحيح"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:23
+msgid "Oops! IP address restrictions, Please contact the site administrator"
+msgstr ""
+"عنوان IP الخاص بالمتجر غير مسموح له الوصول الي بوابات الدفع، اتصل بمسؤول "
+"الموقع"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:24
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:25
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:27
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:34
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:50
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:51
+msgid "Oops! configuration missing, Please contact the site administrator"
+msgstr "بعض إعدادات الدفع غير صحيحة ، اتصل بمسؤول الموقع"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:26
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:32
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:36
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:37
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:41
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:61
+msgid "Something went wrong"
+msgstr "حدث خطأ ما. أعد المحاولة من فضلك"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:28
+msgid "The mobile number is not subscribed to Adfali service"
+msgstr "رقم الهاتف غير مشترك في خدمة أدفعلي"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:29
+msgid "Invalid amount"
+msgstr "قيمة غير صحيحة"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:30
+msgid "Something went wrong, please check the OTP code"
+msgstr "حدث خطأ الرجاء التأكد من رمز التحقق"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:31
+msgid "Backend error, Please contact the site administrator"
+msgstr "خطأ داخلي ، حاول مرة أخرى أو اتصل بمسؤول الموقع"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:33
+msgid "Please make sure all payment fields are filled out correctly"
+msgstr "يرجى التأكد من ملء جميع بيانات الدفع بشكل صحيح"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:35
+msgid "Reference number does not exist"
+msgstr "الرقم المرجعي غير موجود"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:38
+msgid "Incorrect mobile number/year of birth"
+msgstr "رقم الهاتف او تاريخ الميلاد غير صحيح"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:39
+msgid "Incorrect mobile number"
+msgstr "رقم الهاتف غير صحيح"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:40
+msgid "There is a problem with your account, please check with your bank"
+msgstr "الرجاء التحقق من حساب أدفعلي الخاص بك في مصرف التجارة والتنمية"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:42
+msgid ""
+"There is a problem connecting to the bank server, please try again later"
+msgstr "توجد مشكلة في الاتصال بخادم البنك ، يرجى المحاولة مرة أخرى لاحقًا"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:43
+msgid "Invalid OTP. please check your code and try again"
+msgstr "رمز التحقق غير صحيح، الرجاء التأكد من رمز التحقق"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:44
+msgid "Incorrect invoice ID or amount"
+msgstr "رقم الطلب او القيمة غير صحيحة"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:45
+msgid "Invoice number already exists"
+msgstr "رقم الطلب موجود مسبقاً"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:46
+msgid "The mobile number is empty"
+msgstr "حقل رقم الهاتف فارغ"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:47
+msgid "Birth year is empty"
+msgstr "حقل سنة الميلاد فارغ"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:48
+msgid "The OTP has exceeded the time allowed for its use"
+msgstr "تجاوز رمز التحقق الوقت المسموح به لاستخدامه"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:49
+msgid "Please wait a while before requesting an OTP resend again"
+msgstr "يرجى الانتظار بعض الوقت قبل طلب إعادة إرسال رمز التحقق مرة أخرى"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:52
+msgid "Transaction amount is not allowed"
+msgstr "مبلغ الطلب غير مسموح به"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:53
+msgid ""
+"The order amount exceeded the maximum amount allowed for the transaction"
+msgstr "مبلغ الطلب يتجاوز الحد الأقصى للمبلغ المسموح به للمعاملة"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:54
+msgid "Insufficient balance for the transaction"
+msgstr "رصيدك غير كافٍ لاجراء المعاملة"
+
+#: includes/traits/trait-plutu-woocommerce-api-error-codes.php:55
+msgid "Currency is not supported"
+msgstr "طريقة الدفع لا تدعم العملة الحالية"
+
+#: includes/traits/trait-plutu-woocommerce-payment-gateway-helper.php:72
+#, php-format
+msgid ""
+"Sorry! Total is %s LYD higher than maximum amount %s LYD per transaction"
+msgstr "الإجمالي هو %s د.ل أعلى من الحد الأقصى المسموح به %s د.ل لكل معاملة"
+
+#: includes/traits/trait-plutu-woocommerce-payment-gateway-helper.php:74
+#, php-format
+msgid "Sorry! Total is %s LYD less than minimum amount %s LYD per transaction"
+msgstr "الإجمالي هو %s د.ل أقل من الحد الادني المسموح به %s د.ل لكل معاملة"
+
+#: includes/traits/trait-plutu-woocommerce-payment-gateway-helper.php:77
+msgid "The currency is not supported by this payment method"
+msgstr "طريقة الدفع لا تدعم العملة الحالية"
+
+#: includes/traits/trait-plutu-woocommerce-payment-gateway-helper.php:226
+msgid "Mobicash"
+msgstr "موبي كاش"
+
+#: includes/traits/trait-plutu-woocommerce-payment-gateway-helper.php:227
+msgid "Edfaly"
+msgstr "إدفع لي"
+
+#: includes/traits/trait-plutu-woocommerce-payment-gateway-helper.php:228
+msgid "Tadawul Card"
+msgstr "بطاقة تداول"
+
+#: resources/edfali/checkout.form.php:16
+msgid "Please enter the mobile phone number subscribed to the Adfali service"
+msgstr "أدخل رقم الهاتف المسجل في خدمة أدفعلي"
+
+#: resources/edfali/checkout.form.php:19
+#: resources/sadadapi/checkout.form.php:19 resources/tlync/checkout.form.php:20
+msgid "Mobile Number"
+msgstr "رقم الهاتف"
+
+#: resources/edfali/checkout.form.php:23
+#: resources/sadadapi/checkout.form.php:27
+msgid "Verify"
+msgstr "التحقق"
+
+#: resources/edfali/checkout.form.php:30
+#: resources/sadadapi/checkout.form.php:34
+msgid "Enter Confirmation Code"
+msgstr "ادخل رمز التأكيد"
+
+#: resources/edfali/checkout.form.php:33
+#: resources/sadadapi/checkout.form.php:37
+msgid "Confirmation Code"
+msgstr "رمز التأكيد"
+
+#: resources/edfali/checkout.form.php:36
+#: resources/sadadapi/checkout.form.php:40
+msgid "didn't receive a code?"
+msgstr "لم تتلق رمز؟"
+
+#: resources/edfali/checkout.form.php:36
+#: resources/sadadapi/checkout.form.php:40
+msgid "Resend"
+msgstr "إعادة ارسال"
+
+#: resources/moamalat/checkout.form.php:24
+msgid "Pay by Local bank card"
+msgstr "الدفع عن طريق البطاقة المصرفية المحلية"
+
+#: resources/sadadapi/checkout.form.php:16
+msgid "Please enter the mobile phone number subscribed to the Sadad service"
+msgstr "أدخل رقم الهاتف المسجل في خدمة سداد"
+
+#: resources/sadadapi/checkout.form.php:23
+msgid "Birth Year xxxx"
+msgstr "سنة الميلاد xxxx"
+
+#: resources/tlync/checkout.form.php:24
+msgid "Email (Optional)"
+msgstr "البريد الإلكتروني (اختياري)"
